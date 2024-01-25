@@ -31,6 +31,10 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .card.image-full:before {
+            opacity: 0.75;
+        }
     </style>
 </head>
 
@@ -116,37 +120,94 @@
         <section class="w-full border-dashed border-2 border-x-0 text-center my-16">
             <h1 class="text-[#131318] text-2xl lg:text-4xl font-extrabold mt-8 mb-6">Professional Hockeys Club</h1>
             <div class="flex justify-center">
-                <p class="w-full lg:w-3/6 text-[#13131899] text-base font-medium mb-8">We ensure the best services for our club
+                <p class="w-full lg:w-3/6 text-[#13131899] text-base font-medium mb-8">We ensure the best services for
+                    our club
                     members and always give them the best facilities also</p>
             </div>
             <!-- progress -->
-            <div class="flex flex-col gap-16  lg:flex-row justify-around items-center border-dashed border-2 border-x-0 border-b-0  p-14">
+            <div
+                class="flex flex-col gap-16  lg:flex-row justify-around items-center border-dashed border-2 border-x-0 border-b-0  p-14">
                 <!-- progress-1-->
                 <div>
-                    <div class=" text-[#FF4240] radial-progress" style="--value:87;--size:7rem"  role="progressbar"><span class="text-black text-2xl font-extrabold">87%</span></div>
+                    <div class=" text-[#FF4240] radial-progress" style="--value:87;--size:7rem" role="progressbar"><span
+                            class="text-black text-2xl font-extrabold">87%</span></div>
                     <h4 class="text-[#131318] text-xl font-semibold my-4">Prayer Facility</h4>
                     <p class="text-[#13131899] text-base font-medium ">World class facilities <br> for Players</p>
                 </div>
                 <!-- progress-2-->
                 <div>
-                    <div class="text-[#49D293] radial-progress" style="--value:95;--size:7rem" role="progressbar"><span class="text-black text-2xl font-extrabold">95%</span></div>
+                    <div class="text-[#49D293] radial-progress" style="--value:95;--size:7rem" role="progressbar"><span
+                            class="text-black text-2xl font-extrabold">95%</span></div>
                     <h4 class="text-[#131318] text-xl font-semibold my-4">Experienced Coach</h4>
-                    <p class="text-[#13131899] text-base font-medium ">Well known coaches from <br> all over the world</p>
+                    <p class="text-[#13131899] text-base font-medium ">Well known coaches from <br> all over the world
+                    </p>
                 </div>
                 <!-- progress-3-->
                 <div>
-                    <div class="text-[#FFB546] radial-progress" style="--value:90;--size:7rem" role="progressbar"><span class="text-black text-2xl font-extrabold">90%</span></div>
+                    <div class="text-[#FFB546] radial-progress" style="--value:90;--size:7rem" role="progressbar"><span
+                            class="text-black text-2xl font-extrabold">90%</span></div>
                     <h4 class="text-[#131318] text-xl font-semibold my-4">Senior Player</h4>
                     <p class="text-[#13131899] text-base font-medium ">Senior players with <br> decent stats</p>
                 </div>
                 <!-- progress-4-->
                 <div>
-                    <div class="text-[#4C8DF1] radial-progress" style="--value:80;--size:7rem" role="progressbar"><span class="text-black text-2xl font-extrabold">80%</span></div>
+                    <div class="text-[#4C8DF1] radial-progress" style="--value:80;--size:7rem" role="progressbar"><span
+                            class="text-black text-2xl font-extrabold">80%</span></div>
                     <h4 class="text-[#131318] text-xl font-semibold my-4">Training Ground</h4>
                     <p class="text-[#13131899] text-base font-medium ">Training ground with <br>smart equipment </p>
                 </div>
             </div>
         </section>
+
+        <!-- Program Sections -->
+        <section class="w-full border-dashed border-2 border-x-0 text-center border-t-0 my-16">
+            <h1 class="text-[#131318] text-2xl lg:text-4xl font-extrabold -mt-6 mb-6">Program Sections</h1>
+            <div class="flex justify-center border-dashed border-2 border-x-0 border-t-0">
+                <p class="w-full lg:w-3/6 text-[#13131899] text-base font-medium mb-10">We have well planed programs for
+                    our all kind of category members</p>
+            </div>
+            <!-- cards -->
+            <div class="flex flex-col lg:flex-row gap-12 mt-12">
+                <!-- card-1 -->
+                <div class="card  bg-base-100 shadow-xl image-full flex-1 lg:relative">
+                    <figure><img class="w-full" src="/Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body lg:absolute lg:top-24">
+                        <h2 class="card-title text-2xl lg:text-3xl font-extrabold">Junior Program</h2>
+                        <p class="text-start flex-grow-0 my-4 text-base lg:text-xl font-medium">For age 6-12 years</p>
+                        <div class="card-actions justify-start">
+                            <a class="btn h-auto border-0 text-white text-base lg:text-xl bg-[#FF4240] px-6 py-4 ">Register
+                                Now!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card  bg-base-100 shadow-xl image-full flex-1 relative">
+                    <figure><img class="w-full" src="/Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body absolute lg:top-24">
+                        <h2 class="card-title text-2xl lg:text-3xl font-extrabold">Teenager Program</h2>
+                        <p class="text-start flex-grow-0 my-4 text-base lg:text-xl font-medium">For age 13-19 years</p>
+                        <div class="card-actions justify-start">
+                            <a class="btn h-auto border-0 text-white text-base lg:text-xl bg-[#FF4240] px-6 py-4 ">Register
+                                Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="card  bg-base-100 shadow-xl image-full flex-1 relative mt-12">
+                <figure><img class="w-full" src="/Images/4.png" alt="Shoes" /></figure>
+                <div class="card-body absolute lg:top-56">
+                    <h2 class="card-title text-2xl lg:text-3xl font-extrabold">Professional Program</h2>
+                    <p class="text-start flex-grow-0 my-4 text-base lg:text-xl font-medium">For Professional players</p>
+                    <div class="card-actions justify-start">
+                        <a class="btn h-auto border-0 text-white text-base lg:text-xl bg-[#FF4240] px-6 py-4 ">Register
+                            Now!</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
 
